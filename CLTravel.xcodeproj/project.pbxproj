@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A542D9BF218153BD001D0F01 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A542D9BE218153BD001D0F01 /* AppDelegate.m */; };
+		A542D9C2218153BE001D0F01 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A542D9C1218153BE001D0F01 /* ViewController.m */; };
+		A542D9C5218153BE001D0F01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A542D9C3218153BE001D0F01 /* Main.storyboard */; };
+		A542D9C8218153BE001D0F01 /* CLTravel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A542D9C6218153BE001D0F01 /* CLTravel.xcdatamodeld */; };
+		A542D9CA218153C1001D0F01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A542D9C9218153C1001D0F01 /* Assets.xcassets */; };
+		A542D9CD218153C1001D0F01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A542D9CB218153C1001D0F01 /* LaunchScreen.storyboard */; };
+		A542D9D0218153C1001D0F01 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A542D9CF218153C1001D0F01 /* main.m */; };
+		A542D9DA218153C1001D0F01 /* CLTravelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A542D9D9218153C1001D0F01 /* CLTravelTests.m */; };
+		A542D9E5218153C1001D0F01 /* CLTravelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A542D9E4218153C1001D0F01 /* CLTravelUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A542D9D6218153C1001D0F01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A542D9B2218153BD001D0F01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A542D9B9218153BD001D0F01;
+			remoteInfo = CLTravel;
+		};
+		A542D9E1218153C1001D0F01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A542D9B2218153BD001D0F01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A542D9B9218153BD001D0F01;
+			remoteInfo = CLTravel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A542D9BA218153BD001D0F01 /* CLTravel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CLTravel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A542D9BD218153BD001D0F01 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A542D9BE218153BD001D0F01 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A542D9C0218153BD001D0F01 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A542D9C1218153BE001D0F01 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A542D9C4218153BE001D0F01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A542D9C7218153BE001D0F01 /* CLTravel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CLTravel.xcdatamodel; sourceTree = "<group>"; };
+		A542D9C9218153C1001D0F01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A542D9CC218153C1001D0F01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A542D9CE218153C1001D0F01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A542D9CF218153C1001D0F01 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A542D9D5218153C1001D0F01 /* CLTravelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CLTravelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A542D9D9218153C1001D0F01 /* CLTravelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLTravelTests.m; sourceTree = "<group>"; };
+		A542D9DB218153C1001D0F01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A542D9E0218153C1001D0F01 /* CLTravelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CLTravelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A542D9E4218153C1001D0F01 /* CLTravelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLTravelUITests.m; sourceTree = "<group>"; };
+		A542D9E6218153C1001D0F01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A542D9B7218153BD001D0F01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A542D9D2218153C1001D0F01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A542D9DD218153C1001D0F01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A542D9B1218153BD001D0F01 = {
+			isa = PBXGroup;
+			children = (
+				A542D9BC218153BD001D0F01 /* CLTravel */,
+				A542D9D8218153C1001D0F01 /* CLTravelTests */,
+				A542D9E3218153C1001D0F01 /* CLTravelUITests */,
+				A542D9BB218153BD001D0F01 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A542D9BB218153BD001D0F01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A542D9BA218153BD001D0F01 /* CLTravel.app */,
+				A542D9D5218153C1001D0F01 /* CLTravelTests.xctest */,
+				A542D9E0218153C1001D0F01 /* CLTravelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A542D9BC218153BD001D0F01 /* CLTravel */ = {
+			isa = PBXGroup;
+			children = (
+				A542D9BD218153BD001D0F01 /* AppDelegate.h */,
+				A542D9BE218153BD001D0F01 /* AppDelegate.m */,
+				A542D9C0218153BD001D0F01 /* ViewController.h */,
+				A542D9C1218153BE001D0F01 /* ViewController.m */,
+				A542D9C3218153BE001D0F01 /* Main.storyboard */,
+				A542D9C9218153C1001D0F01 /* Assets.xcassets */,
+				A542D9CB218153C1001D0F01 /* LaunchScreen.storyboard */,
+				A542D9CE218153C1001D0F01 /* Info.plist */,
+				A542D9CF218153C1001D0F01 /* main.m */,
+				A542D9C6218153BE001D0F01 /* CLTravel.xcdatamodeld */,
+			);
+			path = CLTravel;
+			sourceTree = "<group>";
+		};
+		A542D9D8218153C1001D0F01 /* CLTravelTests */ = {
+			isa = PBXGroup;
+			children = (
+				A542D9D9218153C1001D0F01 /* CLTravelTests.m */,
+				A542D9DB218153C1001D0F01 /* Info.plist */,
+			);
+			path = CLTravelTests;
+			sourceTree = "<group>";
+		};
+		A542D9E3218153C1001D0F01 /* CLTravelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A542D9E4218153C1001D0F01 /* CLTravelUITests.m */,
+				A542D9E6218153C1001D0F01 /* Info.plist */,
+			);
+			path = CLTravelUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A542D9B9218153BD001D0F01 /* CLTravel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A542D9E9218153C1001D0F01 /* Build configuration list for PBXNativeTarget "CLTravel" */;
+			buildPhases = (
+				A542D9B6218153BD001D0F01 /* Sources */,
+				A542D9B7218153BD001D0F01 /* Frameworks */,
+				A542D9B8218153BD001D0F01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CLTravel;
+			productName = CLTravel;
+			productReference = A542D9BA218153BD001D0F01 /* CLTravel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A542D9D4218153C1001D0F01 /* CLTravelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A542D9EC218153C1001D0F01 /* Build configuration list for PBXNativeTarget "CLTravelTests" */;
+			buildPhases = (
+				A542D9D1218153C1001D0F01 /* Sources */,
+				A542D9D2218153C1001D0F01 /* Frameworks */,
+				A542D9D3218153C1001D0F01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A542D9D7218153C1001D0F01 /* PBXTargetDependency */,
+			);
+			name = CLTravelTests;
+			productName = CLTravelTests;
+			productReference = A542D9D5218153C1001D0F01 /* CLTravelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A542D9DF218153C1001D0F01 /* CLTravelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A542D9EF218153C1001D0F01 /* Build configuration list for PBXNativeTarget "CLTravelUITests" */;
+			buildPhases = (
+				A542D9DC218153C1001D0F01 /* Sources */,
+				A542D9DD218153C1001D0F01 /* Frameworks */,
+				A542D9DE218153C1001D0F01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A542D9E2218153C1001D0F01 /* PBXTargetDependency */,
+			);
+			name = CLTravelUITests;
+			productName = CLTravelUITests;
+			productReference = A542D9E0218153C1001D0F01 /* CLTravelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A542D9B2218153BD001D0F01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = MOOSON_;
+				TargetAttributes = {
+					A542D9B9218153BD001D0F01 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					A542D9D4218153C1001D0F01 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = A542D9B9218153BD001D0F01;
+					};
+					A542D9DF218153C1001D0F01 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = A542D9B9218153BD001D0F01;
+					};
+				};
+			};
+			buildConfigurationList = A542D9B5218153BD001D0F01 /* Build configuration list for PBXProject "CLTravel" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A542D9B1218153BD001D0F01;
+			productRefGroup = A542D9BB218153BD001D0F01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A542D9B9218153BD001D0F01 /* CLTravel */,
+				A542D9D4218153C1001D0F01 /* CLTravelTests */,
+				A542D9DF218153C1001D0F01 /* CLTravelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A542D9B8218153BD001D0F01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A542D9CD218153C1001D0F01 /* LaunchScreen.storyboard in Resources */,
+				A542D9CA218153C1001D0F01 /* Assets.xcassets in Resources */,
+				A542D9C5218153BE001D0F01 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A542D9D3218153C1001D0F01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A542D9DE218153C1001D0F01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A542D9B6218153BD001D0F01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A542D9C2218153BE001D0F01 /* ViewController.m in Sources */,
+				A542D9C8218153BE001D0F01 /* CLTravel.xcdatamodeld in Sources */,
+				A542D9D0218153C1001D0F01 /* main.m in Sources */,
+				A542D9BF218153BD001D0F01 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A542D9D1218153C1001D0F01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A542D9DA218153C1001D0F01 /* CLTravelTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A542D9DC218153C1001D0F01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A542D9E5218153C1001D0F01 /* CLTravelUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A542D9D7218153C1001D0F01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A542D9B9218153BD001D0F01 /* CLTravel */;
+			targetProxy = A542D9D6218153C1001D0F01 /* PBXContainerItemProxy */;
+		};
+		A542D9E2218153C1001D0F01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A542D9B9218153BD001D0F01 /* CLTravel */;
+			targetProxy = A542D9E1218153C1001D0F01 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A542D9C3218153BE001D0F01 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A542D9C4218153BE001D0F01 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A542D9CB218153C1001D0F01 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A542D9CC218153C1001D0F01 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A542D9E7218153C1001D0F01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A542D9E8218153C1001D0F01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A542D9EA218153C1001D0F01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CLTravel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CLuo.CLTravel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A542D9EB218153C1001D0F01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CLTravel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CLuo.CLTravel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A542D9ED218153C1001D0F01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CLTravelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CLuo.CLTravelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CLTravel.app/CLTravel";
+			};
+			name = Debug;
+		};
+		A542D9EE218153C1001D0F01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CLTravelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CLuo.CLTravelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CLTravel.app/CLTravel";
+			};
+			name = Release;
+		};
+		A542D9F0218153C1001D0F01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CLTravelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CLuo.CLTravelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CLTravel;
+			};
+			name = Debug;
+		};
+		A542D9F1218153C1001D0F01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CLTravelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CLuo.CLTravelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CLTravel;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A542D9B5218153BD001D0F01 /* Build configuration list for PBXProject "CLTravel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A542D9E7218153C1001D0F01 /* Debug */,
+				A542D9E8218153C1001D0F01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A542D9E9218153C1001D0F01 /* Build configuration list for PBXNativeTarget "CLTravel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A542D9EA218153C1001D0F01 /* Debug */,
+				A542D9EB218153C1001D0F01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A542D9EC218153C1001D0F01 /* Build configuration list for PBXNativeTarget "CLTravelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A542D9ED218153C1001D0F01 /* Debug */,
+				A542D9EE218153C1001D0F01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A542D9EF218153C1001D0F01 /* Build configuration list for PBXNativeTarget "CLTravelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A542D9F0218153C1001D0F01 /* Debug */,
+				A542D9F1218153C1001D0F01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A542D9C6218153BE001D0F01 /* CLTravel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A542D9C7218153BE001D0F01 /* CLTravel.xcdatamodel */,
+			);
+			currentVersion = A542D9C7218153BE001D0F01 /* CLTravel.xcdatamodel */;
+			path = CLTravel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A542D9B2218153BD001D0F01 /* Project object */;
+}
