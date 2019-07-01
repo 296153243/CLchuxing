@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="UserHeadSetCell" id="VeD-eU-5bO" customClass="UserHeadSetCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="88"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="VeD-eU-5bO" id="rXh-3U-fn8">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="87.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="头像" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zOR-4X-JZu">
+                        <rect key="frame" x="22" y="35" width="80" height="18"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="80" id="atQ-jn-xfa"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.46666666670000001" green="0.46666666670000001" blue="0.46666666670000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="journey_arrow_icon" translatesAutoresizingMaskIntoConstraints="NO" id="ygc-kN-gQ9">
+                        <rect key="frame" x="295" y="36.5" width="15" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="15" id="OG4-ei-uGd"/>
+                            <constraint firstAttribute="height" constant="15" id="qC9-ja-fHE"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="person_default_head" translatesAutoresizingMaskIntoConstraints="NO" id="DF1-hl-6zW">
+                        <rect key="frame" x="225" y="14" width="60" height="60"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="60" id="nYT-Gh-PS5"/>
+                            <constraint firstAttribute="width" constant="60" id="xTs-mu-8bU"/>
+                        </constraints>
+                    </imageView>
+                    <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="user_avatar_main" translatesAutoresizingMaskIntoConstraints="NO" id="9Lo-eF-6Zq">
+                        <rect key="frame" x="218" y="13" width="74" height="62"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="62" id="Yz1-Vq-xv4"/>
+                            <constraint firstAttribute="width" constant="74" id="act-WF-K1x"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstItem="zOR-4X-JZu" firstAttribute="leading" secondItem="rXh-3U-fn8" secondAttribute="leading" constant="22" id="Jun-A6-L6W"/>
+                    <constraint firstItem="zOR-4X-JZu" firstAttribute="centerY" secondItem="rXh-3U-fn8" secondAttribute="centerY" id="PTr-9t-tmW"/>
+                    <constraint firstItem="DF1-hl-6zW" firstAttribute="centerY" secondItem="rXh-3U-fn8" secondAttribute="centerY" id="QnH-IT-OmY"/>
+                    <constraint firstItem="9Lo-eF-6Zq" firstAttribute="centerY" secondItem="DF1-hl-6zW" secondAttribute="centerY" id="VXU-T1-4Oe"/>
+                    <constraint firstItem="ygc-kN-gQ9" firstAttribute="centerY" secondItem="rXh-3U-fn8" secondAttribute="centerY" id="Xe6-My-XZ6"/>
+                    <constraint firstItem="9Lo-eF-6Zq" firstAttribute="centerX" secondItem="DF1-hl-6zW" secondAttribute="centerX" id="ZgZ-N9-N4B"/>
+                    <constraint firstItem="ygc-kN-gQ9" firstAttribute="leading" secondItem="DF1-hl-6zW" secondAttribute="trailing" constant="10" id="g6a-Kf-eUO"/>
+                    <constraint firstAttribute="trailing" secondItem="ygc-kN-gQ9" secondAttribute="trailing" constant="10" id="sYg-0X-UOY"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <connections>
+                <outlet property="headImageView" destination="DF1-hl-6zW" id="1jr-RA-mMf"/>
+                <outlet property="nameLabel" destination="zOR-4X-JZu" id="6YF-Ze-C9r"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="journey_arrow_icon" width="15" height="15"/>
+        <image name="person_default_head" width="60" height="60"/>
+        <image name="user_avatar_main" width="74" height="62"/>
+    </resources>
+</document>

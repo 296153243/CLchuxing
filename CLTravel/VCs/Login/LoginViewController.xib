@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginViewController">
+            <connections>
+                <outlet property="ibLoginBtn" destination="hpg-b7-4di" id="aMQ-kf-IYB"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="loginBg" translatesAutoresizingMaskIntoConstraints="NO" id="cmN-PU-aBc">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="got-6x-exZ">
+                    <rect key="frame" x="92" y="156" width="191" height="219"/>
+                    <state key="normal" backgroundImage="LoginIogo"/>
+                    <connections>
+                        <action selector="gogogoClick:" destination="-1" eventType="touchUpInside" id="Bbl-W0-Hk4"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sgo-jf-cli">
+                    <rect key="frame" x="114.5" y="404" width="146" height="39.5"/>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="33"/>
+                    <color key="textColor" red="0.19607843137254902" green="0.20000000000000001" blue="0.21568627450980393" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lxp-5O-vmp">
+                    <rect key="frame" x="77" y="469.5" width="221" height="29"/>
+                    <string key="text">这里是一句宣传语。
+这里是一句宣传语。这里是一句宣传语。</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OPv-dR-9rx">
+                    <rect key="frame" x="29" y="586.5" width="153" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="DSZ-qV-689"/>
+                        <constraint firstAttribute="width" constant="153" id="adv-4L-I6e"/>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="bEn-Y7-zxe"/>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="153" id="eyf-Gz-nCX"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <state key="normal" title="注 册">
+                        <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="clipsToBounds" value="YES"/>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                            <real key="value" value="0.5"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="layer.borderColorWithUIColor">
+                            <color key="value" red="0.78431372549019607" green="0.78431372549019607" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="ibRegistBtnClick:" destination="-1" eventType="touchUpInside" id="IeA-Fh-nyd"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hpg-b7-4di">
+                    <rect key="frame" x="193" y="586.5" width="153" height="50"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <state key="normal" title="登 录">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="ibLoginBtnClick:" destination="-1" eventType="touchUpInside" id="srI-CV-kPF"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="OPv-dR-9rx" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="29" id="195-lg-5mt"/>
+                <constraint firstItem="hpg-b7-4di" firstAttribute="centerY" secondItem="OPv-dR-9rx" secondAttribute="centerY" id="5kF-h0-VSs"/>
+                <constraint firstItem="hpg-b7-4di" firstAttribute="height" secondItem="OPv-dR-9rx" secondAttribute="height" id="Cm3-qL-LWH"/>
+                <constraint firstItem="cmN-PU-aBc" firstAttribute="trailing" secondItem="Q5M-cg-NOt" secondAttribute="trailing" id="DTh-LD-JT9"/>
+                <constraint firstItem="Lxp-5O-vmp" firstAttribute="top" secondItem="Sgo-jf-cli" secondAttribute="bottom" constant="26" id="F04-HI-FQ4"/>
+                <constraint firstItem="cmN-PU-aBc" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="FQT-9x-km2"/>
+                <constraint firstItem="Lxp-5O-vmp" firstAttribute="centerX" secondItem="Sgo-jf-cli" secondAttribute="centerX" id="HMr-MT-hTW"/>
+                <constraint firstItem="cmN-PU-aBc" firstAttribute="bottom" secondItem="Q5M-cg-NOt" secondAttribute="bottom" id="SFz-LI-TIi"/>
+                <constraint firstItem="Sgo-jf-cli" firstAttribute="top" secondItem="got-6x-exZ" secondAttribute="bottom" constant="29" id="WuW-u8-6Ri"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="hpg-b7-4di" secondAttribute="trailing" constant="29" id="d9J-hR-Fm1"/>
+                <constraint firstItem="got-6x-exZ" firstAttribute="centerX" secondItem="cmN-PU-aBc" secondAttribute="centerX" id="eZ6-Bm-Ulz"/>
+                <constraint firstItem="Sgo-jf-cli" firstAttribute="centerX" secondItem="got-6x-exZ" secondAttribute="centerX" id="f1s-TT-yMz"/>
+                <constraint firstItem="OPv-dR-9rx" firstAttribute="top" secondItem="Lxp-5O-vmp" secondAttribute="bottom" constant="88" id="j9c-g2-fpd"/>
+                <constraint firstItem="got-6x-exZ" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="136" id="rfU-Ig-Oap"/>
+                <constraint firstItem="hpg-b7-4di" firstAttribute="width" secondItem="OPv-dR-9rx" secondAttribute="width" id="wiT-6f-Bc8"/>
+                <constraint firstItem="cmN-PU-aBc" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="yDK-x1-Gi8"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <point key="canvasLocation" x="138.40000000000001" y="142.57871064467767"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="LoginIogo" width="191" height="219"/>
+        <image name="loginBg" width="375" height="667"/>
+    </resources>
+</document>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RegistPhoneVC">
+            <connections>
+                <outlet property="ibMessageLab" destination="cFa-kU-K43" id="QBP-kf-eRT"/>
+                <outlet property="ibNextBtn" destination="tEs-1a-90u" id="saA-wy-Uf3"/>
+                <outlet property="ibPhoneTf" destination="wkd-AV-LNq" id="28k-bO-yf4"/>
+                <outlet property="ibTitleLab" destination="Uts-YR-t5M" id="71W-GT-K3p"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="请输入您的手机号" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uts-YR-t5M">
+                    <rect key="frame" x="30" y="83" width="219" height="33"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                    <color key="textColor" red="0.1960784314" green="0.20000000000000001" blue="0.2156862745" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="为了方便联系，请输入您常用的手机号码" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cFa-kU-K43">
+                    <rect key="frame" x="30" y="136" width="275.5" height="18"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.67843137249999996" green="0.67843137249999996" blue="0.67843137249999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xp0-P1-ZWc">
+                    <rect key="frame" x="35" y="286.5" width="305" height="1"/>
+                    <color key="backgroundColor" red="0.93333333330000001" green="0.93333333330000001" blue="0.93333333330000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="1" id="GFE-yp-8aw"/>
+                        <constraint firstAttribute="height" constant="1" id="cpB-tZ-4vE"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="请输入手机号获取验证码" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wkd-AV-LNq">
+                    <rect key="frame" x="80" y="254.5" width="260" height="17"/>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" keyboardType="phonePad"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MDB-w7-bNO">
+                    <rect key="frame" x="47" y="253" width="13" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="13" id="E2m-r7-B08"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="phone_Icon"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tEs-1a-90u">
+                    <rect key="frame" x="35" y="352.5" width="305" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="305" id="QAj-Du-OvI"/>
+                        <constraint firstAttribute="height" constant="50" id="ZL0-yv-K6B"/>
+                    </constraints>
+                    <state key="normal" title="下一步">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="ibNextBtnClick:" destination="-1" eventType="touchUpInside" id="kRH-bZ-RZZ"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="MDB-w7-bNO" firstAttribute="top" secondItem="cFa-kU-K43" secondAttribute="bottom" constant="99" id="EpQ-hR-hZN"/>
+                <constraint firstItem="wkd-AV-LNq" firstAttribute="leading" secondItem="MDB-w7-bNO" secondAttribute="trailing" constant="20" id="GLi-T3-v6a"/>
+                <constraint firstItem="Xp0-P1-ZWc" firstAttribute="trailing" secondItem="wkd-AV-LNq" secondAttribute="trailing" id="Jw0-Ee-Toi"/>
+                <constraint firstItem="cFa-kU-K43" firstAttribute="top" secondItem="Uts-YR-t5M" secondAttribute="bottom" constant="20" id="KKa-Zu-h4k"/>
+                <constraint firstItem="Uts-YR-t5M" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="63" id="P86-nS-hBG"/>
+                <constraint firstItem="cFa-kU-K43" firstAttribute="leading" secondItem="Uts-YR-t5M" secondAttribute="leading" id="Qda-e8-1Hk"/>
+                <constraint firstAttribute="trailing" secondItem="Xp0-P1-ZWc" secondAttribute="trailing" constant="35" id="U4a-tW-Eyu"/>
+                <constraint firstItem="tEs-1a-90u" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="35" id="Vmt-Sq-YyG"/>
+                <constraint firstItem="Uts-YR-t5M" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="30" id="cwQ-LO-31q"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="tEs-1a-90u" secondAttribute="trailing" constant="35" id="ivH-TD-ONw"/>
+                <constraint firstItem="Xp0-P1-ZWc" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="35" id="mem-9L-Qt7"/>
+                <constraint firstItem="Xp0-P1-ZWc" firstAttribute="top" secondItem="wkd-AV-LNq" secondAttribute="bottom" constant="15" id="qac-xn-De4"/>
+                <constraint firstItem="wkd-AV-LNq" firstAttribute="centerY" secondItem="MDB-w7-bNO" secondAttribute="centerY" id="qgp-IC-KOv"/>
+                <constraint firstItem="tEs-1a-90u" firstAttribute="top" secondItem="Xp0-P1-ZWc" secondAttribute="bottom" constant="65" id="rGf-cZ-gIG"/>
+                <constraint firstItem="MDB-w7-bNO" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="47" id="t9J-Io-qdE"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <point key="canvasLocation" x="53.600000000000001" y="48.125937031484263"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="phone_Icon" width="13" height="20"/>
+    </resources>
+</document>
